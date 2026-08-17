@@ -16,7 +16,7 @@ ANNOUNCE_CHANNEL_ID = 1538431540554502204
 ROLE_TO_PING_ID = 1538788995960668280
 
 last_player_count = 0
-THRESHOLD = 4
+THRESHOLD = 6
 
 
 def get_steam_player_count():
