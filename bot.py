@@ -3,13 +3,12 @@ import requests
 import discord
 from discord.ext import tasks, commands
 
-# Initialize Bot
 intents = discord.Intents.default()
 intents.message_content = True  # Required for prefix commands!
 intents.guilds = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-APP_ID = "766370"  # Dying Light: Bad Blood
+APP_ID = "766370"  # Steam Game ID here
 STEAM_API_URL = f"https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid={APP_ID}"
 
 VOICE_CHANNEL_ID = 1538614140224933929
